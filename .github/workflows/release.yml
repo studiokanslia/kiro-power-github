@@ -1,0 +1,66 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+
+jobs:
+  validate-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: tag_version
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+
+      - name: Validate version matches POWER.md
+        run: |
+          POWER_VERSION=$(grep -oP '^version:\s*"\K[^"]+' POWER.md)
+          if [ "$POWER_VERSION" != "${{ steps.tag_version.outputs.VERSION }}" ]; then
+            echo "ERROR: Tag version (${{ steps.tag_version.outputs.VERSION }}) does not match POWER.md version ($POWER_VERSION)"
+            exit 1
+          fi
+
+      - name: Validate CHANGELOG entry exists
+        run: |
+          if ! grep -q "## \[${{ steps.tag_version.outputs.VERSION }}\]" CHANGELOG.md; then
+            echo "ERROR: No CHANGELOG entry found for version ${{ steps.tag_version.outputs.VERSION }}"
+            exit 1
+          fi
+
+      - name: Validate Docker image is pinned
+        run: |
+          IMAGE_REF=$(grep -oP 'ghcr\.io/github/github-mcp-server[^"]*' mcp.json)
+          echo "Image reference: $IMAGE_REF"
+          
+          # Check that image has a version tag (not 'latest' or untagged)
+          if ! echo "$IMAGE_REF" | grep -qP ':[v]?\d+\.\d+\.\d+'; then
+            echo "ERROR: Docker image must be pinned to a specific version tag (e.g., :v1.2.0)"
+            echo "Found: $IMAGE_REF"
+            exit 1
+          fi
+          
+          # Check that image has a SHA256 digest
+          if ! echo "$IMAGE_REF" | grep -qP '@sha256:[a-f0-9]{64}'; then
+            echo "ERROR: Docker image must include a SHA256 digest (e.g., @sha256:abc123...)"
+            echo "Found: $IMAGE_REF"
+            exit 1
+          fi
+          
+          echo "Image reference is properly pinned with version tag and digest."
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: "v${{ steps.tag_version.outputs.VERSION }}"
+          generate_release_notes: true
+          files: |
+            POWER.md
+            mcp.json
+            CHANGELOG.md
+            steering/*
