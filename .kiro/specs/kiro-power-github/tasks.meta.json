@@ -1,0 +1,407 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create mcp.json with pinned Docker image configuration": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067154
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849075567
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849148764
+      }
+    ],
+    "1.2 Create POWER.md with frontmatter and skeleton structure": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067158
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849154202
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849219206
+      }
+    ],
+    "1.3 Create CHANGELOG.md with initial v0.1.0 entry": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067160
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849076316
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849149442
+      }
+    ],
+    "1.4 Create the steering/ directory structure": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067162
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849077010
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849150254
+      }
+    ],
+    "2.1 Write steering/project-context.md": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067164
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849223238
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849387652
+      }
+    ],
+    "2.2 Write steering/issues.md": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067166
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849393372
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849560178
+      }
+    ],
+    "2.3 Write steering/pull-requests.md": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067168
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849223903
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849388351
+      }
+    ],
+    "2.4 Write steering/repository-management.md": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067170
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849224694
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849389058
+      }
+    ],
+    "2.5 Write steering/spec-issue-sync.md": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067172
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849394149
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849560830
+      }
+    ],
+    "3. Checkpoint - Validate steering files": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067174
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849573802
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849582233
+      }
+    ],
+    "4.1 Write POWER.md Overview and Configuration sections": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067177
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849585966
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849704832
+      }
+    ],
+    "4.2 Write POWER.md Available Steering Files section": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067179
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849586797
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849705577
+      }
+    ],
+    "4.3 Write POWER.md Skills section (7 skills)": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067181
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849710709
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849859652
+      }
+    ],
+    "4.4 Write POWER.md Tool Usage Examples and Best Practices sections": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067183
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849711446
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849858064
+      }
+    ],
+    "4.5 Write POWER.md Troubleshooting section": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067185
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849712209
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849857199
+      }
+    ],
+    "4.6 Write POWER.md Image Update Process section": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067188
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849712986
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849858843
+      }
+    ],
+    "4.7 Write POWER.md Workspace Overrides, Contributing, and Feedback sections": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067190
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849864268
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849992497
+      }
+    ],
+    "4.8 Write POWER.md Security and Image Pinning documentation": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067192
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849865078
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849993394
+      }
+    ],
+    "5. Checkpoint - Validate POWER.md completeness": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067194
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849998081
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780850011247
+      }
+    ],
+    "6.1 Create .github/workflows/release.yml": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067196
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780850015134
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780850089622
+      }
+    ],
+    "6.2 Update README.md with Power overview": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067198
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780850015835
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780850090367
+      }
+    ],
+    "7. Final checkpoint - Validate complete Power package": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849067200
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780850094957
+      },
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780850119781
+      }
+    ],
+    "1. Set up foundational Power structure": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849219214
+      }
+    ],
+    "2. Implement steering files (core workflows)": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849560833
+      }
+    ],
+    "4. Write POWER.md content sections": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780849993397
+      }
+    ],
+    "6. Create release pipeline and finalize": [
+      {
+        "executionId": "2133fad2-e911-4bc7-bb80-1d14874b39ee",
+        "chatSessionId": "38300cf8-3f7c-49a3-9197-6f520a840a1d",
+        "timestamp": 1780850090372
+      }
+    ]
+  }
+}
