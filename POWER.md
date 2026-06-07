@@ -67,7 +67,7 @@ Kiro resolves this reference at runtime and injects the token into the container
 The Power uses a pinned Docker image for the GitHub MCP server:
 
 ```
-ghcr.io/github/github-mcp-server:v0.2.0@sha256:placeholder_replace_with_actual_digest_before_release
+ghcr.io/github/github-mcp-server:v0.2.0@sha256:37e3f4c1856a5a4837e6c22d9b2f7828b4cd79b7b0f5095a5311309b50ae5397
 ```
 
 #### Image Pinning Policy
@@ -86,7 +86,7 @@ This defense-in-depth approach prevents supply chain attacks via tag mutation. E
 The MCP server is launched via Docker with the following command:
 
 ```bash
-docker run --rm -i -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server:v0.2.0@sha256:placeholder_replace_with_actual_digest_before_release
+docker run --rm -i -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server:v0.2.0@sha256:37e3f4c1856a5a4837e6c22d9b2f7828b4cd79b7b0f5095a5311309b50ae5397
 ```
 
 This is configured in `mcp.json` and executed automatically by Kiro when the Power is activated.
@@ -113,6 +113,34 @@ To register your `GITHUB_PERSONAL_ACCESS_TOKEN` in Kiro's secrets system:
 5. Save — Kiro will resolve `${secret:GITHUB_PERSONAL_ACCESS_TOKEN}` at runtime and pass it into the container
 
 > **Security:** The token is injected into the container at runtime via the `-e` environment variable flag. It is never baked into the Docker image, never written to disk inside the container, and must never be committed to repository files.
+
+### Platform-Specific Token Configuration
+
+**Kiro Web Agent (cloud sandbox):**
+
+The `${secret:GITHUB_PERSONAL_ACCESS_TOKEN}` syntax is resolved automatically from Kiro's secrets store. No additional configuration is needed beyond registering the secret.
+
+**Kiro Desktop:**
+
+Desktop does not support variable interpolation in the `env` block. You must paste your token directly into `~/.kiro/settings/mcp.json`:
+
+```json
+"env": {
+  "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_your_actual_token_here"
+}
+```
+
+To get your token value:
+```bash
+# If using GitHub CLI:
+gh auth token
+
+# Or copy from GitHub Settings → Developer settings → Personal access tokens
+```
+
+> **Note:** The `~/.kiro/settings/mcp.json` file is user-level and is NOT committed to any repository, so your token remains private.
+
+> **Tip:** If you rotate your token, update the value in `~/.kiro/settings/mcp.json` directly. No Power reinstallation is needed.
 
 ### Troubleshooting Docker Setup
 
